@@ -1,0 +1,52 @@
+:root{
+    font-size: 1px;
+}
+*{
+    box-sizing: border-box;
+    font-size: 50rem;
+    font-family: 'Basic';
+}
+@font-face{
+    font-family: "Basic";    
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Ahlab.ttf) format("openType");
+}
+body{
+    background-image: url("../img/מסלול\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    width: 100vw;
+    height:  100vh;
+    position: relative;
+    margin: 0;
+}
+#route{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    
+}
+#play{
+    background-color:rgba(0, 0, 0, 0);
+    border-width:0rem ;
+    /* display: flex;
+    justify-content: center; */
+}
+#details{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100rem;
+}
+.detail{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#start{
+    width: 150rem;
+    margin-left: 10rem;
+}

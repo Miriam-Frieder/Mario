@@ -1,0 +1,50 @@
+:root{
+    font-size: 1px;
+}
+*{
+    box-sizing: border-box;
+    font-size: 50rem;
+    font-family: 'Basic';
+    direction: rtl;
+}
+@font-face{
+    font-family: "Basic";    
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Ahlab.ttf) format("openType");
+}
+body{
+    background-image: url("../img/מריו.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:  100vh;
+    position: relative;
+    margin: 0;
+}
+
+#form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.input{
+    flex-basis: 0;
+    flex-grow: 1;
+    size: 20vw;
+    border: 5rem black solid;
+    border-width: 0rem 0rem 5rem 0rem;
+    margin: 10rem;
+    background-color: rgba(255,255,255,0.4);
+    
+}
+#inputs{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+#save{
+    border:5rem black solid;
+    
+}
+
